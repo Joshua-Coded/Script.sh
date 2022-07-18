@@ -1,0 +1,6 @@
+#hello.sh
+#this is my first script
+
+printf "Hello to bash, so sweet"
+
+exit 0
