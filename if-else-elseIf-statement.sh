@@ -1,17 +1,24 @@
 #!/bin/bash
 
-echo -e "Enter 4 values followed by space: \c"
+echo -e "Enter a value: \c"
+
 read -r a
+
+echo -e "Enter b value: \c"
+
 read -r b
+
+echo -e "Enter c value: \c"
 read -r c
+echo -e "Enter d value: \c"
 read -r d
 
 if [ $a -gt $b -a $a -gt $c -a $a -gt $d ]; then
-    echo "$a is the biggest number"
+    echo "$a is  big"
 elif [ $b -gt $c -a $b -gt $d ]; then
-    echo "$b is the second biggest number"
+    echo "$b is  big"
 elif [ $c -gt $d ]; then
-    echo "$c is the third biggest number"
+    echo "$c is  big"
 else
-    echo "$d is the smallest number"
+    echo "$d is  smallest "
     fi
