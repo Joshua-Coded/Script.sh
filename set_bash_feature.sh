@@ -12,4 +12,5 @@ echo "Date is $3"
 echo "Time H:M:S $4"
 echo "TimeZone is $6"
 echo "Year is $7"
+set -x
 # END #
